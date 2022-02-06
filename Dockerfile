@@ -1,5 +1,5 @@
 FROM openjdk:11
-EXPOSE 8080
+EXPOSE 8081
 ADD target/school-registration-system.jar school-registration-system.jar
 ENTRYPOINT ["java", "-jar", "/school-registration-system.jar"]
 
